@@ -69,13 +69,13 @@
                                    <td><label for="fname">First name</label></td>
                                  </tr>
                                  <tr>
-                                   <td><input type="text" name="fname" value="" size="50" pattern="[A-Z,a-z]{2,}" required></td>
+                                   <td><input type="text" name="fname" value="" size="50" pattern="[A-Z,a-z]{2,}" required title="Must be greater than 2 words."></td>
                                  </tr>
                                  <tr>
                                    <td><label for="lname">Last name</label></td>
                                  </tr>
                                  <tr>
-                                   <td><input type="text" name="lname" value="" size="50" pattern="[A-Z,a-z]{2,}" required></td>
+                                   <td><input type="text" name="lname" value="" size="50" pattern="[A-Z,a-z]{2,}" required title="Must be greater than 2 words."></td>
                                  </tr>
                                  <tr>
                                    <td><label for="email">Your E-mail address</label></td>
@@ -87,7 +87,7 @@
                                    <td><label for="number">Phone number</label> </td>
                                  </tr>
                                  <tr>
-                                   <td><input type="tel" name="number" value="" size="50" required> </td>
+                                   <td><input type="tel" name="number" value="" size="50" pattern="[0-9]{10}" required title="Must be 10 digits."> </td>
                                  </tr>
                                  <tr>
                                    <td><label for="subject">Subject</label> </td>
@@ -155,7 +155,7 @@
     <table width=100%>
       <tr>
         <td width='15%'></td>
-        <td width=70%><p align="left">Copyright © 2020 Abel Abate. All rights Reserved.</p></td>
+        <td width=70%><p align="left">Copyright © 2020 <strong><a href="index.html">Abel Abate</a> </strong>. All rights Reserved.</p></td>
         <td width=15%></td>
       </tr>
     </table>
