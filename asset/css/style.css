@@ -1,0 +1,94 @@
+body{
+  background-color: #eee;
+
+}
+
+
+#contain{
+  background-color: white;
+  padding: 0;
+  margin-top: 10px;
+}
+
+
+#header{
+  color: #2d2654;
+  font-weight: bold;
+}
+
+#navigation{
+  background-color:#2d2654
+}
+
+#content{
+  font-family: 'Arial','Helvetica',sans-serif;
+  margin-top: 20px;
+
+
+
+}
+
+#aboutmetitle{
+  padding-bottom: 30px;
+  font-family: DroidSerif;
+  font-size: 36px;
+
+  background: url(http://stevenkinnear.com/wp-content/themes/trulyminimal/images/left-dot.png) bottom left repeat-x;
+}
+
+#innercontent{
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  text-transform: none;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+
+#left{
+  background: url(http://stevenkinnear.com/wp-content/themes/trulyminimal/images/left-dot.png) right repeat-y;
+
+
+}
+
+#right{
+    color: #8c8c8c;
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 10px;
+
+    background: url(http://stevenkinnear.com/wp-content/themes/trulyminimal/images/left-dot.png) left repeat-x;
+}
+
+#socialmedia{
+  margin-bottom: 35px;
+  padding-bottom: 35px;
+  background: url(http://stevenkinnear.com/wp-content/themes/trulyminimal/images/left-dot.png) bottom left repeat-x;
+}
+
+
+
+ul{
+  margin: 10px;
+}
+li{
+  margin-top: 10px;
+  display: inline;
+
+}
+
+nav a {
+
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  color: #bbb;
+  font-family: DroidSans;
+  font-size: 20px;
+
+}
+
+h4{
+  margin-bottom: 30px;
+}
