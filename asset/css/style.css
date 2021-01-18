@@ -3,6 +3,10 @@ body{
 
 }
 
+a{
+  text-decoration: none;
+}
+
 
 #contain{
   background-color: white;
@@ -78,7 +82,7 @@ li{
 
 }
 
-nav a {
+nav a{
 
   padding-left: 10px;
   padding-right: 10px;
@@ -89,6 +93,23 @@ nav a {
 
 }
 
+
+
+nav a:hover{
+  color: white;
+}
+
+nav a:active{
+  color: white;
+}
+
+
+
 h4{
   margin-bottom: 30px;
+}
+
+
+.highlighted{
+  color:white;
 }
