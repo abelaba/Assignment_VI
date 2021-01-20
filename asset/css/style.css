@@ -54,6 +54,7 @@ a{
 }
 
 #left{
+  margin-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
   background: url(http://stevenkinnear.com/wp-content/themes/trulyminimal/images/left-dot.png) right repeat-y;
@@ -126,6 +127,26 @@ h4{
   margin-bottom: 30px;
 }
 
+form{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h3{
+  color: #574d4d;
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 110px;
+  margin-bottom: 20px;
+}
+
+label{
+  color: #a5a3a3;
+  font-size: 12px;
+  display: block;
+  margin: 0 0 7px 2px;
+}
+
 .card{
   border:none;
   background: url(http://stevenkinnear.com/wp-content/themes/trulyminimal/images/left-dot.png) bottom left repeat-x;
@@ -135,10 +156,10 @@ h4{
 
 }
 
-.card a{
+.card-link{
   color:#2d2654;
 }
-.card a:hover{
+.card-link:hover{
   color:#ff5c0c;
 }
 
@@ -170,4 +191,39 @@ h4{
 }
 .highlighted{
   color:white;
+}
+
+
+.content-title{
+  background: url(http://stevenkinnear.com/wp-content/themes/trulyminimal/images/left-dot.png) bottom left repeat-x;
+  padding-bottom: 35px;
+  margin-bottom: 20px;
+
+}
+
+.content-title a{
+  color:#262626;
+
+}
+
+
+.content-image{
+
+  margin-bottom: 20px;
+
+}
+
+
+.content-body{
+  background: url(http://stevenkinnear.com/wp-content/themes/trulyminimal/images/left-dot.png) bottom left repeat-x;
+  padding-bottom: 35px;
+
+
+}
+
+
+
+.form-group{
+  margin-top:20px;
+  margin-bottom: 10px;
 }

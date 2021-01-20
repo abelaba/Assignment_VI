@@ -35,10 +35,14 @@
 
             <div class="row">
 
+              <div class="content-title">
               <h1>Mucho player</h1>
               <p>by <a href="index.html">Abel Abate</a>  on March 10, 2019</p>
+              </div>
 
-              <img width=700px height=400px src="asset\images\muchplayer.PNG" alt="Muchplayer main screen">
+              <div class="content-body">
+
+              <img class="content-image img-fluid" src="asset\images\muchplayer.PNG" alt="Muchplayer main screen">
               <p>
                 Listening to music is a hobby of almost every person you meet around daily, for playing this music we need to have installed
                 a music player on our device. Mucho player is an app developed using python which lets you add music to your library and
@@ -46,26 +50,50 @@
                 multimedia formats like audio, video, etc.
               </p>
 
+              </div>
+
 
             </div>
 
             <div class="row">
-              <form class="" action="mailto:aabelabate@gmail.com" method="POST">
-                <h1>Leave a comment</h1>
-                <label for="fname">First name</label>
-                <input type="text" name="fname" value="" size="50" pattern="[A-Z,a-z]{2,}" required title="Must be greater than 2 words.">
-                 <label for="lname">Last name</label>
-                 <input type="text" name="lname" value="" size="50" pattern="[A-Z,a-z]{2,}" required title="Must be greater than 2 words.">
-                 <label for="email">E-mail address</label>
-                 <input type="email" name="email" value="" size="50" required>
-                  <label for="detail"Your comment</label>
-                  <textarea name="detail" rows="10" cols='100'></textarea>
-                  <label for="rate">How would you rate this page?</label>
+              <div class="container">
+                <h3>Leave a comment</h3>
 
-                      <input type="number" name="rate" value="" min="0" max ="10" required>
+                <form class="" action="mailto:aabelabate@gmail.com" method="POST">
 
-                     <input type="submit" name="" value="submit your reply">
-              </form>
+
+                  <div class="form-group">
+                    <label for="fname">First name</label>
+                    <input class="form-control" type="text" name="fname" value="" size="50" pattern="[A-Z,a-z]{2,}" required title="Must be greater than 2 words.">
+
+                  </div>
+                  <div class="form-group">
+                    <label for="lname">Last name</label>
+                    <input class="form-control" type="text" name="lname" value="" size="50" pattern="[A-Z,a-z]{2,}" required title="Must be greater than 2 words.">
+
+                  </div>
+                  <div class="form-group">
+                    <label for="email">E-mail address</label>
+                    <input class="form-control" type="email" name="email" value="" size="50" required>
+
+                  </div>
+                  <div class="form-group">
+                    <label for="detail" > Your comment</label>
+                    <textarea class="form-control" name="detail" rows="10" cols='100'></textarea>
+
+                  </div>
+                  <div class="form-group">
+                    <label for="rate">How would you rate this page?</label>
+                    <input class="form-control" type="number" name="rate" value="" min="0" max ="10" required>
+
+                  </div>
+
+                    <input class="btn btn-primary btn-lg" type="submit" name="" value="submit your reply">
+
+
+                </form>
+
+              </div>
 
 
 
