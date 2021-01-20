@@ -10,15 +10,18 @@ a{
 
 
 #contain{
-  background-color: white;
+
   padding: 0;
   margin-top: 10px;
+  border: none;
 }
 
 
 #header{
+  background-color: white;
   color: #2d2654;
   font-weight: bold;
+  margin-bottom: 0;
 }
 
 #navigation{
@@ -26,7 +29,11 @@ a{
 }
 
 #content{
+  background-color: white;
   font-family: 'Arial','Helvetica',sans-serif;
+  padding-left: 0 !important;
+  padding-right:0!important;
+  margin-left: 0 !important;
 
 
 
@@ -57,7 +64,7 @@ a{
   margin-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  background: url(http://stevenkinnear.com/wp-content/themes/trulyminimal/images/left-dot.png) right repeat-y;
+  background: url(http://stevenkinnear.com/wp-content/themes/trulyminimal/images/top-dot.png) right repeat-y;
 
 
 }
@@ -226,4 +233,21 @@ label{
 .form-group{
   margin-top:20px;
   margin-bottom: 10px;
+}
+
+.footer{
+
+  margin-top: 30px;
+  
+  color: #a4a4a4;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: DroidSerif;
+}
+
+.footer a{
+  color:#2d2654;
+}
+.footer a:hover{
+  color: #ff5c0c;
 }
